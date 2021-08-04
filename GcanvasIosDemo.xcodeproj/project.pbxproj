@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		953BE560E97C77E31B776EAF /* libPods-GcanvasIosDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3298538570F8D284EC7A97CE /* libPods-GcanvasIosDemo.a */; };
+		FA151D53268AC82800DCC503 /* CanvasComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = FA151D52268AC82800DCC503 /* CanvasComponent.m */; };
+		FAE9F2E6268AC7C000BA79DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE9F2E5268AC7C000BA79DA /* AppDelegate.m */; };
+		FAE9F2E9268AC7C000BA79DA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE9F2E8268AC7C000BA79DA /* SceneDelegate.m */; };
+		FAE9F2EC268AC7C000BA79DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE9F2EB268AC7C000BA79DA /* ViewController.m */; };
+		FAE9F2EF268AC7C000BA79DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9F2ED268AC7C000BA79DA /* Main.storyboard */; };
+		FAE9F2F1268AC7C100BA79DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE9F2F0268AC7C100BA79DA /* Assets.xcassets */; };
+		FAE9F2F4268AC7C100BA79DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9F2F2268AC7C100BA79DA /* LaunchScreen.storyboard */; };
+		FAE9F2F7268AC7C100BA79DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE9F2F6268AC7C100BA79DA /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3298538570F8D284EC7A97CE /* libPods-GcanvasIosDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GcanvasIosDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C625610C40691950B379DB /* Pods-GcanvasIosDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GcanvasIosDemo.debug.xcconfig"; path = "Target Support Files/Pods-GcanvasIosDemo/Pods-GcanvasIosDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		75C6E7BB21C5FEBAF2E216F9 /* Pods-GcanvasIosDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GcanvasIosDemo.release.xcconfig"; path = "Target Support Files/Pods-GcanvasIosDemo/Pods-GcanvasIosDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FA151D51268AC82800DCC503 /* CanvasComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasComponent.h; sourceTree = "<group>"; };
+		FA151D52268AC82800DCC503 /* CanvasComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasComponent.m; sourceTree = "<group>"; };
+		FAE9F2E1268AC7C000BA79DA /* GcanvasIosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GcanvasIosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE9F2E4268AC7C000BA79DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAE9F2E5268AC7C000BA79DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAE9F2E7268AC7C000BA79DA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FAE9F2E8268AC7C000BA79DA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FAE9F2EA268AC7C000BA79DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAE9F2EB268AC7C000BA79DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAE9F2EE268AC7C000BA79DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE9F2F0268AC7C100BA79DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE9F2F3268AC7C100BA79DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAE9F2F5268AC7C100BA79DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE9F2F6268AC7C100BA79DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE9F2DE268AC7C000BA79DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953BE560E97C77E31B776EAF /* libPods-GcanvasIosDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39B82100474489B835DA9F32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53C625610C40691950B379DB /* Pods-GcanvasIosDemo.debug.xcconfig */,
+				75C6E7BB21C5FEBAF2E216F9 /* Pods-GcanvasIosDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4EDC3B0AA65C4F88C026A59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3298538570F8D284EC7A97CE /* libPods-GcanvasIosDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAE9F2D8268AC7C000BA79DA = {
+			isa = PBXGroup;
+			children = (
+				FAE9F2E3268AC7C000BA79DA /* GcanvasIosDemo */,
+				FAE9F2E2268AC7C000BA79DA /* Products */,
+				39B82100474489B835DA9F32 /* Pods */,
+				C4EDC3B0AA65C4F88C026A59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE9F2E2268AC7C000BA79DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE9F2E1268AC7C000BA79DA /* GcanvasIosDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE9F2E3268AC7C000BA79DA /* GcanvasIosDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FA151D51268AC82800DCC503 /* CanvasComponent.h */,
+				FA151D52268AC82800DCC503 /* CanvasComponent.m */,
+				FAE9F2E4268AC7C000BA79DA /* AppDelegate.h */,
+				FAE9F2E5268AC7C000BA79DA /* AppDelegate.m */,
+				FAE9F2E7268AC7C000BA79DA /* SceneDelegate.h */,
+				FAE9F2E8268AC7C000BA79DA /* SceneDelegate.m */,
+				FAE9F2EA268AC7C000BA79DA /* ViewController.h */,
+				FAE9F2EB268AC7C000BA79DA /* ViewController.m */,
+				FAE9F2ED268AC7C000BA79DA /* Main.storyboard */,
+				FAE9F2F0268AC7C100BA79DA /* Assets.xcassets */,
+				FAE9F2F2268AC7C100BA79DA /* LaunchScreen.storyboard */,
+				FAE9F2F5268AC7C100BA79DA /* Info.plist */,
+				FAE9F2F6268AC7C100BA79DA /* main.m */,
+			);
+			path = GcanvasIosDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE9F2E0268AC7C000BA79DA /* GcanvasIosDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE9F2FA268AC7C100BA79DA /* Build configuration list for PBXNativeTarget "GcanvasIosDemo" */;
+			buildPhases = (
+				A03FB0E47EFFBA3BF10E7131 /* [CP] Check Pods Manifest.lock */,
+				FAE9F2DD268AC7C000BA79DA /* Sources */,
+				FAE9F2DE268AC7C000BA79DA /* Frameworks */,
+				FAE9F2DF268AC7C000BA79DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GcanvasIosDemo;
+			productName = GcanvasIosDemo;
+			productReference = FAE9F2E1268AC7C000BA79DA /* GcanvasIosDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE9F2D9268AC7C000BA79DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FAE9F2E0268AC7C000BA79DA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FAE9F2DC268AC7C000BA79DA /* Build configuration list for PBXProject "GcanvasIosDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE9F2D8268AC7C000BA79DA;
+			productRefGroup = FAE9F2E2268AC7C000BA79DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE9F2E0268AC7C000BA79DA /* GcanvasIosDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE9F2DF268AC7C000BA79DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE9F2F4268AC7C100BA79DA /* LaunchScreen.storyboard in Resources */,
+				FAE9F2F1268AC7C100BA79DA /* Assets.xcassets in Resources */,
+				FAE9F2EF268AC7C000BA79DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A03FB0E47EFFBA3BF10E7131 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GcanvasIosDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE9F2DD268AC7C000BA79DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE9F2EC268AC7C000BA79DA /* ViewController.m in Sources */,
+				FA151D53268AC82800DCC503 /* CanvasComponent.m in Sources */,
+				FAE9F2E6268AC7C000BA79DA /* AppDelegate.m in Sources */,
+				FAE9F2F7268AC7C100BA79DA /* main.m in Sources */,
+				FAE9F2E9268AC7C000BA79DA /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAE9F2ED268AC7C000BA79DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE9F2EE268AC7C000BA79DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE9F2F2268AC7C100BA79DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE9F2F3268AC7C100BA79DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE9F2F8268AC7C100BA79DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAE9F2F9268AC7C100BA79DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE9F2FB268AC7C100BA79DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C625610C40691950B379DB /* Pods-GcanvasIosDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC26K3X2C6;
+				INFOPLIST_FILE = GcanvasIosDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.momo.GcanvasIosDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE9F2FC268AC7C100BA79DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C6E7BB21C5FEBAF2E216F9 /* Pods-GcanvasIosDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC26K3X2C6;
+				INFOPLIST_FILE = GcanvasIosDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.momo.GcanvasIosDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE9F2DC268AC7C000BA79DA /* Build configuration list for PBXProject "GcanvasIosDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE9F2F8268AC7C100BA79DA /* Debug */,
+				FAE9F2F9268AC7C100BA79DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE9F2FA268AC7C100BA79DA /* Build configuration list for PBXNativeTarget "GcanvasIosDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE9F2FB268AC7C100BA79DA /* Debug */,
+				FAE9F2FC268AC7C100BA79DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE9F2D9268AC7C000BA79DA /* Project object */;
+}

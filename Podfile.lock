@@ -1,0 +1,22 @@
+PODS:
+  - GCanvas (1.1.1)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+
+DEPENDENCIES:
+  - GCanvas (= 1.1.1)
+  - SDWebImage (= 3.7.5)
+
+SPEC REPOS:
+  https://gitee.com/mirrors/CocoaPods-Specs.git:
+    - GCanvas
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  GCanvas: 48279b84f74a24c8c41fedc8ca19885ef3f4a8d9
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+
+PODFILE CHECKSUM: 712715fb04a7b8374e99f95bf8b4efe1fa66e2c2
+
+COCOAPODS: 1.10.1
